@@ -12,7 +12,7 @@ const Contact = () => {
     <div className="container">
       <div className="breadcrumb reveal"><Link to="/">Home</Link> <span>/</span> Contact</div>
       <h1 className="interior-headline reveal reveal-delay-1">Let's Talk About<br/>What You're Building.</h1>
-      <p className="interior-sub reveal reveal-delay-2">We work with a small number of businesses at any time. Tell us where you are — and where you're trying to get.</p>
+      <p className="interior-sub reveal reveal-delay-2">We work with a small number of businesses at any time. Tell us where you are  and where you're trying to get.</p>
     </div>
   </section>
 
@@ -54,9 +54,9 @@ const Contact = () => {
             <label htmlFor="contact-revenue">Annual Revenue <span className="required">*</span></label>
             <select id="contact-revenue" name="revenue" required>
               <option value="" disabled selected>Select revenue range</option>
-              <option value="1-3m">$1M – $3M</option>
-              <option value="3-6m">$3M – $6M</option>
-              <option value="6-10m">$6M – $10M</option>
+              <option value="1-3m">$1M to $3M</option>
+              <option value="3-6m">$3M to $6M</option>
+              <option value="6-10m">$6M to $10M</option>
               <option value="10m+">$10M+</option>
             </select>
           </div>
@@ -94,7 +94,7 @@ const Contact = () => {
             <svg width="18" height="18" viewBox="0 0 16 16" fill="none" className="btn-arrow"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
           </button>
 
-          <p className="form-note">30-min discovery call — no obligation.</p>
+          <p className="form-note">30-min discovery call  no obligation.</p>
         </form>
 
         {/* Success State */}
@@ -124,14 +124,14 @@ const Contact = () => {
               <div className="expect-num">02</div>
               <div>
                 <strong>Honest assessment</strong>
-                <p>We tell you clearly whether we think we can help — and if not, we'll point you toward something more relevant.</p>
+                <p>We tell you clearly whether we think we can help  and if not, we'll point you toward something more relevant.</p>
               </div>
             </div>
             <div className="expect-item">
               <div className="expect-num">03</div>
               <div>
                 <strong>Proposed next step</strong>
-                <p>If there's a fit, we outline what an engagement would look like — scope, phases, and expected outcomes. No surprises.</p>
+                <p>If there's a fit, we outline what an engagement would look like  scope, phases, and expected outcomes. No surprises.</p>
               </div>
             </div>
             <div className="expect-item">
@@ -173,10 +173,10 @@ const Contact = () => {
           <ul>
             <li><span className="q-check">✓</span> Annual revenue between $1M and $10M</li>
             <li><span className="q-check">✓</span> A founder or CEO who is actively involved in the business</li>
-            <li><span className="q-check">✓</span> A structural growth challenge — not a one-off tactical problem</li>
+            <li><span className="q-check">✓</span> A structural growth challenge  not a one-off tactical problem</li>
             <li><span className="q-check">✓</span> Openness to outside perspective and structured change</li>
           </ul>
-          <p className="qualifier-note">If you're outside this range, we'll tell you honestly — and suggest a more relevant resource.</p>
+          <p className="qualifier-note">If you're outside this range, we'll tell you honestly  and suggest a more relevant resource.</p>
         </div>
       </div>
 

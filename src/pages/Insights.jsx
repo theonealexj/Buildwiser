@@ -50,7 +50,7 @@ const Insights = () => {
         </div>
         <div className="cs-metrics-bar">
           <div className="cs-metric"><span className="cs-metric-val">+40%</span><span className="cs-metric-lbl">Revenue Growth</span></div>
-          <div className="cs-metric"><span className="cs-metric-val">–75%</span><span className="cs-metric-lbl">Founder Sales Dependency</span></div>
+          <div className="cs-metric"><span className="cs-metric-val">-75%</span><span className="cs-metric-lbl">Founder Sales Dependency</span></div>
           <div className="cs-metric"><span className="cs-metric-val">12 Mo</span><span className="cs-metric-lbl">To Target</span></div>
         </div>
       </div>
@@ -80,7 +80,7 @@ const Insights = () => {
         </div>
         <div className="cs-metrics-bar">
           <div className="cs-metric"><span className="cs-metric-val">2x</span><span className="cs-metric-lbl">Enterprise Win Rate</span></div>
-          <div className="cs-metric"><span className="cs-metric-val">–30%</span><span className="cs-metric-lbl">Reduction in Churn</span></div>
+          <div className="cs-metric"><span className="cs-metric-val">-30%</span><span className="cs-metric-lbl">Reduction in Churn</span></div>
           <div className="cs-metric"><span className="cs-metric-val">1</span><span className="cs-metric-lbl">Integrated Workflow</span></div>
         </div>
       </div>
@@ -129,7 +129,7 @@ const Insights = () => {
         <div className="cs-body-grid">
           <div className="cs-block">
             <div className="cs-block-label">The Problem</div>
-            <p>Sales were unpredictable—huge months followed by dry spells. The business relied entirely on incoming RFPs and had zero outbound capability, making revenue forecasting impossible.</p>
+            <p>Sales were unpredictable huge months followed by dry spells. The business relied entirely on incoming RFPs and had zero outbound capability, making revenue forecasting impossible.</p>
           </div>
           <div className="cs-block">
             <div className="cs-block-label">What We Did</div>

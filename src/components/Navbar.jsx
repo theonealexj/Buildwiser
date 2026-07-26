@@ -27,7 +27,7 @@ const Navbar = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
     <nav className={`nav ${scrolled ? 'scrolled' : ''}`} id="nav">
       <div className="nav-inner">
         <Link to="/" className="nav-logo">
-          <img src="/Logo.jpg" alt="BuildWiser" className="nav-logo-img" />
+          <img src="/nav_logo.png" alt="BuildWiser" className="nav-logo-img" />
         </Link>
         <ul className="nav-links" id="nav-links">
           <li><Link to="/" className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}>Home</Link></li>

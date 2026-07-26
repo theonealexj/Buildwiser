@@ -14,7 +14,7 @@ const Home = () => {
 
           <div className="hero-v2-left reveal reveal-delay-1">
             <h1 className="hero-v2-headline">
-              Building Strategy for the Businesses of Tomorrow
+              The Strategy of Tommorow
             </h1>
 
             <div className="hero-v2-actions">

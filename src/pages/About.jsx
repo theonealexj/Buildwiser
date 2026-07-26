@@ -76,50 +76,7 @@ const About = () => {
       </section>
 
 
-      {/* ═══════════════════════════════════════════════
-       3. TIMELINE (EVOLUTION)
-  ═══════════════════════════════════════════════ */}
-      <section className="evolution-section page-section" id="evolution">
-        <div className="container">
-          <div className="section-label reveal">Evolution</div>
-          <h2 className="section-headline reveal reveal-delay-1">How we got here.</h2>
 
-          <div className="evolution-list reveal reveal-delay-2">
-            <div className="evo-item">
-              <div className="evo-year">2019</div>
-              <div className="evo-dot"></div>
-              <div className="evo-content">
-                <h3>Foundation</h3>
-                <p>Launched to solve scaling challenges in high-growth startups.</p>
-              </div>
-            </div>
-            <div className="evo-item">
-              <div className="evo-year">2021</div>
-              <div className="evo-dot"></div>
-              <div className="evo-content">
-                <h3>Process Expansion</h3>
-                <p>Shifted from isolated advice to building end-to-end operational systems.</p>
-              </div>
-            </div>
-            <div className="evo-item">
-              <div className="evo-year">2023</div>
-              <div className="evo-dot"></div>
-              <div className="evo-content">
-                <h3>The AI Transition</h3>
-                <p>Integrated AI workflows to eliminate manual execution drag entirely.</p>
-              </div>
-            </div>
-            <div className="evo-item">
-              <div className="evo-year">2025</div>
-              <div className="evo-dot"></div>
-              <div className="evo-content">
-                <h3>Three Pillars</h3>
-                <p>Formalised our approach across Strategy, AI, and Operations.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
 
       {/* ═══════════════════════════════════════════════
@@ -127,16 +84,11 @@ const About = () => {
   ═══════════════════════════════════════════════ */}
       <section className="vision-mission-section page-section" id="vision-mission">
         <div className="container">
-          <div className="vm-grid reveal">
+          <div className="vm-grid reveal" style={{ gridTemplateColumns: '1fr' }}>
             <div className="vm-card">
               <div className="vm-glow"></div>
-              <div className="section-label">Our Vision</div>
-              <h2 className="vm-headline">A world where businesses scale without operational friction.</h2>
-            </div>
-            <div className="vm-card">
-              <div className="vm-glow"></div>
-              <div className="section-label">Our Mission</div>
-              <h2 className="vm-headline">To solve complex structural bottlenecks using AI and systems engineering.</h2>
+              <div className="section-label">Our Mission and Vision</div>
+              <h2 className="vm-headline">Precise. Assured. substantive</h2>
             </div>
           </div>
         </div>
